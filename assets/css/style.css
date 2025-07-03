@@ -157,6 +157,7 @@ table {
     --color-blue-gray: #475569;
 
     --bg-rose: #881337;
+    --bg-rose-light : #BE123C;
     --bg-dark-blue: #0F172A;
 
     /* default transition */
@@ -173,9 +174,8 @@ table {
     border: 1px solid rgba(226, 139, 139, 0.622);
 }
 
-.primary-btn {
+.primary-btn-fill {
     text-decoration: none;
-    font-family: serif;
     border: 1px solid;
     border-radius: 5px;
     padding: 12px 28px;
@@ -185,4 +185,19 @@ table {
     font-weight: var(--fw-500);
     line-height: 24px;
     letter-spacing: 0.5px;
+}
+
+.primary-btn-outline {
+    color: var(--color-white);
+    font-family: var(--font-medium);
+    font-size: 16px;
+    font-weight: var(--fw-500);
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    padding: 12px 28px;
+    border: 2px solid;
+    border-color: var(--bg-rose-light);
+    background: var(--bg-rose-light);
+    cursor: pointer;
+    border-radius: 5px;
 }

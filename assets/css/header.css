@@ -1,6 +1,10 @@
 header {
-    position: relative;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
     background: var(--bg-rose);
+    z-index: 10;
 }
 
 header nav {
@@ -78,6 +82,7 @@ header .mobile-nav-list {
     header aside {
         display: block;
         position: fixed;
+        z-index: 11;
         top: 0;
         background-color: var(--bg-rose);
         height: 100%;
