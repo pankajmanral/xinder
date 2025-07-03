@@ -1,0 +1,90 @@
+.beincredible {
+    position: relative;
+    padding: 80px 0;
+    background-color: var(--color-blue-gray);
+}
+
+.beincredible .beincredible-wrapper {
+    display: flex;
+}
+
+.beincredible .beincredible-left-content {
+    width: 100%;
+    max-width: 400px;
+}
+
+.beincredible .beincredible-description {
+    color: var(--color-white);
+    font-family: var(--font-regular);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    margin-bottom: 24px;
+}
+
+.beincredible .beincredible-swiper{
+    width: 100%;
+    margin-left: 80px;
+}
+
+.beincredible .beincredible-card{
+    transition: all .5s ease-in-out;
+    opacity: 0.4;
+}
+
+.swiper-slide.beincredible-card.swiper-slide-prev{
+    transform: scaleX(0.8);
+
+}
+
+.swiper-slide.beincredible-card.swiper-slide-next{
+    transform: scaleX(0.8);
+
+}
+
+/* .beincredible .beincredible-card{
+    width: 80%;
+    transition: all .5s ease-in-out;
+} */
+
+.swiper-slide.beincredible-card.swiper-slide-active{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+
+.beincredible .beincredible-img-wrapper {
+    overflow: hidden;
+}
+
+.beincredible .beincredible-image{
+    display: block;
+    width: 100%;
+}
+
+.beincredible .beincredible-card-description {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background-color: var(--color-white);
+}
+
+.beincredible .card-text-content {
+    margin-left: 8px;
+}
+
+.beincredible .card-title {
+    color: var(--color-black);
+    font-family: var(--font-regular);
+    font-size: 16px;
+    font-weight: var(--fw-400);
+    line-height: 22.4px;
+}
+
+.beincredible .by {
+    color: var(--color-blue-gray);
+    font-family: var(--font-regular);
+    font-size: 14px;
+    font-weight: var(--fw-400);
+    line-height: 19.6px ;
+}

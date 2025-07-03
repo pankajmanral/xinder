@@ -9,14 +9,17 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: -40px;
 }
 
 .logo-container .logo-img-wrapper {
     width: 100%;
     max-width: 176px;
-    margin: 40px;
+    margin-right: 80px;
     overflow: hidden;
+}
+
+.logo-container .logo-img-wrapper:last-child {
+    margin-right: 0;
 }
 
 .logo-container .logo-img-wrapper:last-child {
@@ -25,8 +28,8 @@
 
 .logo-container .logo-image {
     width: 100%;
-    height: auto;
-    object-fit: cover;
+    height: 32px;
+    object-fit: contain;
     object-position: center;
 }
 
