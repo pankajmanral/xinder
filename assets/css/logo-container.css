@@ -1,0 +1,41 @@
+.logo-container {
+    position: relative;
+    padding: 48px 0;
+    background-color: var(--bg-light-blue);
+}
+
+.logo-container .logo-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: -40px;
+}
+
+.logo-container .logo-img-wrapper {
+    width: 100%;
+    max-width: 176px;
+    margin: 40px;
+    overflow: hidden;
+}
+
+.logo-container .logo-img-wrapper:last-child {
+    margin-right: 0;
+}
+
+.logo-container .logo-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width:769px) {
+    .logo-container .logo-wrapper {
+        margin: -16px;
+    }
+
+    .logo-container .logo-img-wrapper {
+        margin: 16px;
+    }
+}

@@ -1,7 +1,7 @@
 .banner {
     position: relative;
     background-color: var(--bg-rose);
-    margin-top: 85px;
+    padding-top: 128px;
 }
 
 .banner .banner-wrapper {

@@ -157,8 +157,9 @@ table {
     --color-blue-gray: #475569;
 
     --bg-rose: #881337;
-    --bg-rose-light : #BE123C;
+    --bg-rose-light: #BE123C;
     --bg-dark-blue: #0F172A;
+    --bg-light-blue: #F1F5F9;
 
     /* default transition */
     --default-transtion: all .3s ease-in-out;
@@ -171,7 +172,7 @@ table {
     padding-left: 16px;
     padding-right: 16px;
     margin: 0 auto;
-    border: 1px solid rgba(226, 139, 139, 0.622);
+    /* border: 1px solid rgba(226, 139, 139, 0.622); */
 }
 
 .primary-btn-fill {
@@ -200,4 +201,54 @@ table {
     background: var(--bg-rose-light);
     cursor: pointer;
     border-radius: 5px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.primary-heading {
+    color: var(--bg-dark-blue);
+    font-family: var(--font-semibold);
+    font-size: 40px;
+    font-weight: var(--fw-700);
+    line-height: 44px;
+}
+
+.more-link-btn {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    color: var(--color-blue);
+    font-family: var(--font-medium);
+    font-size: 16px;
+    font-weight: var(--fw-500);
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    padding: 12px 0;
+}
+
+.right-arrow {
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+}
+
+@media (max-width:769px) {
+    .heading {
+        align-items: flex-start;
+        margin-bottom: 24px;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:526px) {
+    .primary-heading {
+        font-size: 32px;
+        line-height: 35.2px;
+    }
+
 }
