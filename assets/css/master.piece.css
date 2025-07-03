@@ -11,8 +11,6 @@
 }
 
 .master-piece .master-piece-card {
-    width: 100%;
-    max-width: 300px;
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
@@ -28,8 +26,6 @@
 }
 
 .master-piece .master-piece-card-description {
-    width: 100%;
-    max-width: 300px;
     display: flex;
     align-items: center;
     padding: 16px;

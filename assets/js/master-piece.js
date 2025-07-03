@@ -3,7 +3,7 @@ const masterPieceSwiper = new Swiper('.master-piece-wrapper', {
     spaceBetween: 24,
     breakpoints : {
         0 : {
-            slidesPerView : 1
+            slidesPerView : 1.5
         },
         768 : {
             slidesPerView : 2
