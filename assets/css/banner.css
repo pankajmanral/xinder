@@ -132,6 +132,11 @@
 }
 
 @media (max-width:526px) {
+
+    .banner{
+        padding-top: 85px;
+    }
+
     .banner .banner-heading {
         font-size: 40px;
         line-height: 44px;

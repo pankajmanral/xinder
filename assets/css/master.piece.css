@@ -1,11 +1,10 @@
 .master-piece {
     position: relative;
     background-color: var(--bg-light-blue);
-    padding: 80px 0;
     overflow: hidden;
 }
 
-.master-piece .master-piece-wrapper{
+.master-piece .master-piece-wrapper {
     width: 100%;
     overflow: visible;
 }
@@ -16,12 +15,27 @@
 }
 
 .master-piece .master-piece-img-wrapper {
+    position: relative;
     overflow: hidden;
 }
 
-.master-piece .master-piece-image{
+.master-piece .master-piece-image {
     display: block;
     width: 100%;
+}
+
+.master-piece-badge {
+    position: absolute;
+    padding: 2px 8px;
+    border-radius: 4px;
+    top: 18px;
+    left: 23px;
+    color: var(--color-black);
+    font-family: var(--font-regular);
+    font-size: 14px;
+    font-weight: var(--fw-400);
+    line-height: 19.6px;
+    background-color: var(--color-white);
 }
 
 .master-piece .master-piece-card-description {
@@ -48,5 +62,5 @@
     font-family: var(--font-regular);
     font-size: 14px;
     font-weight: var(--fw-400);
-    line-height: 19.6px ;
+    line-height: 19.6px;
 }

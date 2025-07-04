@@ -1,0 +1,139 @@
+footer {
+    position: relative;
+    padding: 48px 0;
+}
+
+footer .footer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-list {
+    width: 100%;
+    max-width: 173px;
+    margin-right: 48px;
+}
+
+footer .footer-list:last-child {
+    margin-right: 0;
+}
+
+footer .footer-heading {
+    display: flex;
+    align-items: center;
+    color: var(--color-blue-gray);
+    font-family: var(--font-medium);
+    font-size: 16px;
+    font-weight: var(--fw-500);
+    line-height: 17.6px;
+    padding: 12px 0;
+}
+
+footer .footer-heading svg {
+    margin-right: 8px;
+}
+
+footer .footer-link {
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 0;
+    color: var(--color-blue-gray);
+    font-family: var(--font-regular);
+    font-size: 16px;
+    font-weight: var(--fw-400);
+    line-height: 22.4px;
+    transition: var(--default-transtion);
+}
+
+footer .footer-link::after{
+    position: absolute;
+    content: '';
+    bottom: 5px;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background-color: var(--color-black);
+    transition: var(--default-transtion);
+}
+
+footer .footer-link:hover::after{
+    width: 100%;
+}
+
+footer .copyright-wrapper {
+    padding-top: 48px;
+}
+
+footer .copyright-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+footer .copyright-text {
+    color: var(--color-blue-gray);
+    font-family: var(--font-regular);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+
+footer .icon-container {
+    display: flex;
+}
+
+footer .footer-icon-link {
+    text-decoration: none;
+    display: block;
+    margin-right: 16px;
+}
+
+footer .footer-icon-link:last-child {
+    margin-right: 0;
+}
+
+footer .footer-icon {
+    color: var(--color-blue-gray);
+    font-size: 24px;
+}
+
+footer .footer-description {
+    color: var(--color-blue-gray);
+    font-family: var(--font-regular);
+    font-size: 12px;
+    font-weight: var(--fw-400);
+    line-height: 16.8px;
+}
+
+@media (max-width:1025px) {
+    footer .footer-wrapper {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    footer .footer-list {
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
+}
+
+@media (max-width:526px) {
+    footer .footer-wrapper {
+        justify-content: flex-start;
+    }
+
+    footer .footer-list {
+        max-width: 100%;
+    }
+
+    footer .copyright-section{
+        flex-direction: column;
+    }
+
+    footer .copyright-text{
+        margin-bottom: 24px;
+    }
+
+}

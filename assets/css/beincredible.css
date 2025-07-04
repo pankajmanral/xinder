@@ -1,11 +1,14 @@
 .beincredible {
     position: relative;
-    padding: 80px 0;
     background-color: var(--color-blue-gray);
 }
 
 .beincredible .beincredible-wrapper {
     display: flex;
+}
+
+.beincredible .beincredible-card{
+    border-radius: 10px;
 }
 
 .beincredible .beincredible-left-content {
@@ -36,6 +39,7 @@
     height: auto;
     object-fit: cover;
     object-position: center;
+    border-radius: 10px 10px 0 0;
 }
 
 .beincredible .beincredible-text {
@@ -43,6 +47,7 @@
     align-items: center;
     background-color: var(--color-white);
     padding: 16px;
+    border-radius: 0 0 10px 10px;
 }
 
 .beincredible .beincredible-card-title {
@@ -61,8 +66,28 @@
 
 .swiper-slide.beincredible-card.swiper-slide-prev {
     transform: scaleX(0.5);
+    opacity: 0.5;
 }
 
 .swiper-slide.beincredible-card.swiper-slide-next {
     transform: scaleX(0.5);
+    opacity: 0.5;
+}
+
+@media (max-width:769px) {
+    .beincredible .beincredible-wrapper {
+        flex-direction: column;
+    }
+
+    .beincredible .beincredible-swiper {
+        margin-top: 53px;
+    }
+
+    .swiper-slide.beincredible-card.swiper-slide-prev {
+        transform: scaleX(1);
+    }
+
+    .swiper-slide.beincredible-card.swiper-slide-next {
+        transform: scaleX(1);
+    }
 }

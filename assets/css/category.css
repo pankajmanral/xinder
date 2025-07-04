@@ -1,6 +1,5 @@
 .category {
     position: relative;
-    padding: 80px 0;
     background-color: var(--color-white);
     overflow: hidden;
 }
@@ -12,6 +11,32 @@
     overflow: visible;
 }
 
+.category .category-card {
+    position: relative;
+}
+
+.category .category-text{
+    position: absolute;
+    top: 24px;
+    left: 24px;
+}
+
+.category .category-title {
+    color: var(--color-white);
+    font-family: var(--font-medium);
+    font-size: 16px;
+    font-weight: var(--fw-500);
+    line-height: 17.6px;
+}
+
+.category .category-subtitle {
+    color: var(--color-white);
+    font-family: var(--font-semibold);
+    font-size: 24px;
+    font-weight: var(--fw-700);
+    line-height: 26.4px;
+}
+
 .category .category-image {
     display: block;
     width: 100%;
@@ -19,4 +44,3 @@
     object-fit: cover;
     object-position: center;
 }
-

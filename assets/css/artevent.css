@@ -1,6 +1,5 @@
 .artevent {
     position: relative;
-    padding: 80px 0;
 }
 
 .artevent .artevent-card-wrapper {
@@ -11,17 +10,33 @@
 }
 
 .artevent .artevent-card {
+    position: relative;
     width: 100%;
     max-width: 411px;
     margin: 12px;
-
+    cursor: pointer;
+    transition: var(--default-transtion);
 }
 
-.artevent .artevent-img-wrapper {
+.artevent .artevent-badge {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    color: #6B21A8;
+    font-family: var(--font-regular);
+    font-size: 14px;
+    font-weight: var(--fw-400);
+    line-height: 19.6px;
+    background-color: #F3E8FF;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+/* .artevent .artevent-img-wrapper {
     width: 100%;
     overflow: hidden;
     margin-bottom: 24px;
-}
+} */
 
 .artevent .artevent-card-image {
     display: block;
@@ -29,6 +44,7 @@
     height: auto;
     object-fit: cover;
     object-position: center;
+    margin-bottom: 24px;
 }
 
 .artevent .artevent-card-title {

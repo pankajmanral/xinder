@@ -35,10 +35,11 @@
 
 @media (max-width:769px) {
     .logo-container .logo-wrapper {
-        margin: -16px;
+        margin-right: 0;
+        margin: -5px;
     }
 
     .logo-container .logo-img-wrapper {
-        margin: 16px;
+        margin: 5px;
     }
 }

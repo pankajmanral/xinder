@@ -1,12 +1,12 @@
 .testimonial {
     position: relative;
-    padding: 80px 0;
 }
 
 .testimonial .testimonial-wrapper {
     display: flex;
     align-items: center;
 }
+
 
 .testimonial .testimonial-img-wrapper {
     position: relative;
@@ -84,11 +84,11 @@
         flex-direction: column;
     }
 
-    .testimonial .testimonial-img-wrapper{
+    .testimonial .testimonial-img-wrapper {
         margin-bottom: 32px;
     }
-    
-    .testimonial .testimonial-card-description{
+
+    .testimonial .testimonial-card-description {
         max-width: 100%;
     }
 }

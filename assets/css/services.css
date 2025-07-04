@@ -1,7 +1,6 @@
 .services {
     position: relative;
     color: var(--color-white);
-    padding: 80px 0;
 }
 
 .services .sevices-heading {
@@ -53,5 +52,9 @@
 @media (max-width:526px) {
     .services .services-card {
         margin: 12px;
+    }
+
+    .services .services-card-wrapper{
+        margin-bottom: 48px;
     }
 }
