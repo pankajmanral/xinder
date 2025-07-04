@@ -12,10 +12,6 @@
     overflow: visible;
 }
 
-.category .category-card {
-    cursor: pointer;
-}
-
 .category .category-image {
     display: block;
     width: 100%;

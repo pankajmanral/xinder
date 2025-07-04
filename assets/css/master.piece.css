@@ -13,7 +13,6 @@
 .master-piece .master-piece-card {
     border-radius: 10px;
     overflow: hidden;
-    cursor: pointer;
 }
 
 .master-piece .master-piece-img-wrapper {

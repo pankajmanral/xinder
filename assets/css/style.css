@@ -172,7 +172,7 @@ table {
     padding-left: 16px;
     padding-right: 16px;
     margin: 0 auto;
-    border: 1px solid rgba(226, 139, 139, 0.622);
+    /* border: 1px solid rgba(226, 139, 139, 0.622); */
 }
 
 .primary-btn-fill {
